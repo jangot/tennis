@@ -1,0 +1,7 @@
+$.Class('Debug', {
+
+    w : function () {
+
+    }
+
+}, {});
