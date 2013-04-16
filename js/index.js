@@ -18,6 +18,7 @@ sc('class/animation');
 
 sc('class/drawable/abstract');
 sc('class/drawable/ball');
+sc('class/drawable/lines');
 
 
 sc('app');

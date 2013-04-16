@@ -9,12 +9,14 @@ $(function () {
 
     var animator = new Animation();
 
-    var ball = new Drawable.Ball({canvas:canvas});
+    var lines = new Drawable.Lines({canvas:canvas});
+    animator.add(lines);
 
+    var ball = new Drawable.Ball({canvas:canvas});
     ball.vector({
-        x:30,
-        y:15,
-        speed:3
+        x:10,
+        y:20,
+        speed:1
     });
     animator.add(ball);
 

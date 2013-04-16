@@ -9,8 +9,8 @@ Drawable.Abstract('Drawable.Ball', {
                 height: 3
             })
             .position({
-                x: 20,
-                y: 40
+                x: 50,
+                y: 70
             })
         ;
     },
@@ -25,7 +25,7 @@ Drawable.Abstract('Drawable.Ball', {
                 x : (0 - vector.x)
             });
         }
-        if (pos.x < CONST.AREA_PADDING) {
+        if (pos.x <= CONST.AREA_PADDING) {
             this.vector({
                 x : (0 - vector.x)
             });
@@ -35,7 +35,7 @@ Drawable.Abstract('Drawable.Ball', {
                 y : (0 - vector.y)
             });
         }
-        if (pos.y < CONST.AREA_PADDING) {
+        if (pos.y <= CONST.AREA_PADDING) {
             this.vector({
                 y : (0 - vector.y)
             });

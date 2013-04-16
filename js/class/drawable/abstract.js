@@ -60,7 +60,6 @@ $.Class('Drawable.Abstract', {
 
         var newX = pos.x + vX;
         var newY = pos.y + vY;
-
         this.position({
             x : newX,
             y : newY

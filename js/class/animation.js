@@ -7,7 +7,7 @@ $.Class('Animation', {
 
     init : function () {
         this._items = [];
-        this._delay = 100;
+        this._delay = 200;
         this._onTik = [];
     },
 
