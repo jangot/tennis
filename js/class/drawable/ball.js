@@ -1,7 +1,55 @@
-/**
- * Created with JetBrains WebStorm.
- * User: jangot
- * Date: 16.04.13
- * Time: 17:10
- * To change this template use File | Settings | File Templates.
- */
+Drawable.Abstract('Drawable.Ball', {
+
+    init : function (options) {
+        this._super(options);
+
+        this
+            .size({
+                width: 3,
+                height: 3
+            })
+            .position({
+                x: 20,
+                y: 40
+            })
+        ;
+    },
+
+    move : function () {
+        var pos = this.position();
+        var canvas = this.canvas();
+        var vector = this.vector();
+
+        if (pos.x >= canvas.width - (2*CONST.AREA_PADDING)) {
+            this.vector({
+                x : (0 - vector.x)
+            });
+        }
+        if (pos.x < CONST.AREA_PADDING) {
+            this.vector({
+                x : (0 - vector.x)
+            });
+        }
+        if (pos.y >= canvas.height - (2*CONST.AREA_PADDING)) {
+            this.vector({
+                y : (0 - vector.y)
+            });
+        }
+        if (pos.y < CONST.AREA_PADDING) {
+            this.vector({
+                y : (0 - vector.y)
+            });
+        }
+        this._super();
+    },
+
+    draw : function () {
+        var pos = this.position();
+        var size = this.size();
+
+        var context = this._getContext();
+
+        context.fillRect(pos.x, pos.y, size.width, size.height);
+    }
+
+});

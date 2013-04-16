@@ -1,7 +1,6 @@
-/**
- * Created with JetBrains WebStorm.
- * User: jangot
- * Date: 16.04.13
- * Time: 14:10
- * To change this template use File | Settings | File Templates.
- */
+var CONST = {
+    AREA_PADDING : 20,
+    AREA_HEIGHT : 500,
+    AREA_WIDTH : 500
+
+}
