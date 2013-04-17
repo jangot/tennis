@@ -74,6 +74,25 @@ $.Class('Drawable.Abstract', {
         return this._canvas;
     },
 
+    isCross : function (object) {
+        var XColl=false;
+        var YColl=false;
+
+        var position1 = this.position();
+        var position2 = object.position();
+
+        if (
+            (position1.x + this.size().width >= position2.x)
+                && (position1.x <= position2.x + object.size().width)
+            ) XColl = true;
+        if (
+            (position1.y + this.size().height >= position2.y)
+                && (position1.y <= position2.y + object.size().height)
+            ) YColl = true;
+        return (XColl&YColl);
+    },
+
+
     _setPosition : function (position) {
         if (position.x) {
             this._position.x = position.x;

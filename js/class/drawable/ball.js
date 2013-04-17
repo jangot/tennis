@@ -25,11 +25,11 @@ Drawable.Abstract('Drawable.Ball', {
                 x : (0 - vector.x)
             });
         }
-        if (pos.x <= CONST.AREA_PADDING) {
-            this.vector({
-                x : (0 - vector.x)
-            });
-        }
+//        if (pos.x <= CONST.AREA_PADDING) {
+//            this.vector({
+//                x : (0 - vector.x)
+//            });
+//        }
         if (pos.y >= canvas.height - (2*CONST.AREA_PADDING)) {
             this.vector({
                 y : (0 - vector.y)
