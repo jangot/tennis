@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1462a1a-91cc-4301-a213-eda389cb60a2" name="Default" comment="ball">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/class/drawable/racket.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/class/drawable/abstract.js" afterPath="$PROJECT_DIR$/js/class/drawable/abstract.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/class/animation.js" afterPath="$PROJECT_DIR$/js/class/animation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/class/drawable/ball.js" afterPath="$PROJECT_DIR$/js/class/drawable/ball.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/constants.js" afterPath="$PROJECT_DIR$/js/constants.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
+    <list default="true" id="a1462a1a-91cc-4301-a213-eda389cb60a2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/class/keyboard.js" afterPath="$PROJECT_DIR$/js/class/keyboard.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tennis.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a1462a1a-91cc-4301-a213-eda389cb60a2" time="1366209001262" ignored="false" />
+    <file path="/Dummy.txt" changelist="a1462a1a-91cc-4301-a213-eda389cb60a2" time="1366278901066" ignored="false" />
     <file path="/index.html" changelist="a1462a1a-91cc-4301-a213-eda389cb60a2" time="1366123522975" ignored="false" />
     <file path="/app.js" changelist="a1462a1a-91cc-4301-a213-eda389cb60a2" time="1366209705258" ignored="false" />
     <file path="/area.js" changelist="a1462a1a-91cc-4301-a213-eda389cb60a2" time="1366118197369" ignored="false" />
@@ -49,7 +43,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="16" selection-start="219" selection-end="219" vertical-scroll-proportion="-4.375">
+            <state line="7" column="16" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -73,10 +67,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="keyboard.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="keyboard.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/class/keyboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="14" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
+            <state line="64" column="0" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.96670365">
               <folding />
             </state>
           </provider>
@@ -91,10 +85,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="animation.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="animation.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/class/animation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="23" selection-start="178" selection-end="178" vertical-scroll-proportion="0.01664817">
+            <state line="9" column="23" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -162,12 +156,12 @@
         <option value="$PROJECT_DIR$/js/class/drawable/lines.js" />
         <option value="$PROJECT_DIR$/js/class/drawable/ball.js" />
         <option value="$PROJECT_DIR$/js/index.js" />
-        <option value="$PROJECT_DIR$/js/class/keyboard.js" />
         <option value="$PROJECT_DIR$/js/class/drawable/racket.js" />
         <option value="$PROJECT_DIR$/js/class/drawable/abstract.js" />
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/js/constants.js" />
         <option value="$PROJECT_DIR$/js/class/animation.js" />
+        <option value="$PROJECT_DIR$/js/class/keyboard.js" />
       </list>
     </option>
   </component>
@@ -203,6 +197,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -317,7 +312,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -326,8 +320,8 @@
     <property name="options.lastSelected" value="preferences.externalResources" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../game" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -351,7 +345,11 @@
       <created>1366107631001</created>
       <updated>1366107631001</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ball">
+      <created>1366210092820</created>
+      <updated>1366210092820</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -361,7 +359,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17267759" sideWeight="0.670247" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17267759" sideWeight="0.670247" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -419,7 +417,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="ball" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -434,11 +432,33 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="first commit" />
+    <MESSAGE value="ball" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="25" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/class/drawable/ball.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="58" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/class/drawable/abstract.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="69" selection-start="1994" selection-end="1994" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="16" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
@@ -453,14 +473,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/class/drawable/lines.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="111" selection-start="763" selection-end="763" vertical-scroll-proportion="0.44950056">
-          <folding />
-        </state>
+        <state line="27" column="111" selection-start="763" selection-end="763" vertical-scroll-proportion="0.44950056" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="219" selection-end="219" vertical-scroll-proportion="-4.375">
+        <state line="7" column="16" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -475,13 +493,6 @@
     <entry file="file://$PROJECT_DIR$/js/class/debug.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="29" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/class/keyboard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="14" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -523,7 +534,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/class/animation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="23" selection-start="178" selection-end="178" vertical-scroll-proportion="0.01664817">
+        <state line="9" column="23" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/class/keyboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="0" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.96670365">
           <folding />
         </state>
       </provider>
